@@ -24,6 +24,7 @@ const ProvincialesMap = () => {
       [18.50695893941549, -70.00179290771484]
     ]
   ];
+
   const polyline = [
     [18.500773038403693, -69.95475769042969],
     [18.505982233063104, -69.93158340454102],
@@ -32,7 +33,7 @@ const ProvincialesMap = () => {
   ];
 
   return (
-    <Map center={[18.7726333, -69.4162013]} zoom={9}>
+    <Map center={[18.7726333, -69.4162013]} zoom={8}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -59,7 +60,12 @@ const ProvincialesMap = () => {
         >
           <div>
             <h2>{activeProvincia.properties.NAME}</h2>
-            <p>Director: {activeProvincia.properties.DIRECTOR_NAME}</p>
+            <p>
+              {" "}
+              <strong>
+                Director: {activeProvincia.properties.DIRECTOR_NAME}
+              </strong>
+            </p>
             <p>Direccion: {activeProvincia.properties.DIRECCION}</p>
             <p>Telefono: {activeProvincia.properties.TELEFONO}</p>
             <p>Flota: {activeProvincia.properties.FLOTA}</p>
