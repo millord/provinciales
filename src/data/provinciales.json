@@ -16,7 +16,7 @@
         "EMAIL": "N/A",
         "TELEFONO": "809-508-6738",
         "FLOTA": "809-519-1373",
-        "IMAGEN": "../img/Distrito.jpg",
+        "IMAGEN": "./img/Distrito.jpg",
         "ACCESSIBLE": "no/non",
         "OPEN": null,
         "NOTES": "Outdoor",
@@ -40,12 +40,12 @@
       "properties": {
         "PROVINCIAL_ID": 1219,
         "FACILITYID": 28001,
-        "NAME": "Bob MacQuarrie Skateboard Park (SK8 Extreme Park)",
-        "DIRECTOR_NAME": "Planchodrome Bob-MacQuarrie (Parc SK8 Extreme)",
-        "DIRECCION": "1490 Youville Drive",
-        "EMAIL": "1490, promenade Youville",
-        "TELEFONO": "other",
-        "FLOTA": "autre",
+        "NAME": "Santiago",
+        "DIRECTOR_NAME": "Aura Espaillat",
+        "DIRECCION": "Aut. Duarte Km 04 no. 04( frente a la fortaleza Fdo. Valerio).",
+        "EMAIL": "Eduardo.Rodriguez@ambiente.gob.do",
+        "TELEFONO": "809-971-7455",
+        "FLOTA": "829-679-9136",
         "IMAGEN": "no/non",
         "ACCESSIBLE": "no/non",
         "OPEN": null,
@@ -62,7 +62,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.546518086577947, 45.467134581917357]
+        "coordinates": [-70.50069, 19.199611]
       }
     },
     {

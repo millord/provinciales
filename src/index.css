@@ -3,3 +3,17 @@
   height: 100vh;
   margin-top: 50px;
 }
+
+.intro {
+  font-family: monospace;
+  text-align: center;
+}
+.text {
+  font-family: monospace;
+  text-align: center;
+  font-size: x-large;
+}
+
+.container {
+  margin-top: 90px;
+}
